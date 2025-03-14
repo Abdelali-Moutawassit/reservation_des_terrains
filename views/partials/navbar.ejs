@@ -1,0 +1,149 @@
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0 bg-dark" style="margin-top: -40px;">
+      <div class="container">
+        <a class="navbar-brand" href="#!"><span style="color: #5e9693;">3Mars </span><span style="color: #fff;">Mohammedia</span></a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link"style="color: #fff;margin-top: 3px;" href="/matches/pageIndex">Reserver</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;margin-top: 3px;" href="/matches/Tirrain">Terrain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;margin-top: 3px;" href="#!">About</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" style="color: #fff; margin-top: 3px;" href="#!">Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;margin-top: 3px;" href="#!">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;margin-top: 3px;" href="#!">Contact</a>
+            </li>
+            <li class="nav-item" style="margin-left: 50px;">
+              <button class="button" data-text="Awesome" style="margin-top: 6px;">
+                <a href="/users/logout" style="text-decoration: none; color: #fff;">
+                <span class="actual-text">&nbsp;Logout&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;Logout&nbsp;</span>
+              </a>
+            </button>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-flex flex-row" style="margin-left: 200px;">
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#!">
+                <i class="fas fa-shopping-cart" style="color: #fff;"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#!">
+                <i class="fab fa-twitter" style="color: #fff;"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#!">
+                <i class="fab fa-instagram" style="color: #fff;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  
+    <!--Section: Design Block-->
+    <!-- <section>
+      <div id="intro" class="bg-image vh-100" style="
+            background-image: url('https://www.aachener-zeitung.de/imgs/scaled/48/1/4/5/7/9/7/6/8/5/w1900_h1052_x1796_y1197_COLOURBOX53737186-147f9e000c235d99.jpg');
+            background-size: cover;
+          ">
+        <div class="mask" style="background-color: rgba(250, 182, 162, 0.15);"></div>
+      </div>
+    </section> -->
+    <!--Section: Design Block-->
+  </header>
+
+  <style>
+    /* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+  </style>
+  
