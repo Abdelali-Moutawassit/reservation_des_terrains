@@ -113,8 +113,8 @@ Les contributions sont les bienvenues !
 5. Ouvrez une Pull Request 📩
 
 ## 📜 Licence
-Ce projet est sous licence **MIT** 📄
+Ce projet est sous licence **AB** 📄
 
 ---
-💡 _Développé avec ❤️ par [Votre Nom](https://github.com/votre-utilisateur)_
+💡 _Développé avec ❤️ par [MOUTAWASSIT ABDELALI](https://www.linkedin.com/in/moutawassit-abdelali-98bb95267/)
 
